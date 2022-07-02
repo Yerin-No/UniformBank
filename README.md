@@ -24,4 +24,7 @@
    7. uniform/views UniformCreateView
    8. uniform/size uniform:add
    9. templates uniform_create.html
+   10. uniform/views UniformDetailView
+   11. uniform/urls uniform:detail
+   12. templates uniform_detail.html
    
