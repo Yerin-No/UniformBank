@@ -17,4 +17,5 @@
       1. DB 테이블 만들기
    3. uniform/admin Uniform
       1. python manage.py createsuperuser
-   2. uniform/models Uniform \_\_str\_\_()
+      2. uniform/models Uniform \_\_str\_\_()
+   
