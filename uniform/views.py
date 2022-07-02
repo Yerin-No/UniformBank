@@ -28,6 +28,6 @@ class UniformUpdateView(UpdateView):
     # success_url = reverse_lazy('bookmark:list')   #success_url 없으면 model의 get_absolute_url() 호출
 
 
-class UniformDeleteView( DeleteView):
+class UniformDeleteView(DeleteView):
     model = Uniform
     success_url = reverse_lazy('uniform:list')
