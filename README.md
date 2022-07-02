@@ -15,3 +15,6 @@
       1. models -> DB로 옮기기 위한 py
    2. python manage.py migrate
       1. DB 테이블 만들기
+   3. uniform/admin Uniform
+      1. python manage.py createsuperuser
+   2. uniform/models Uniform \_\_str\_\_()
