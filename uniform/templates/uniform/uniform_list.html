@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Uniform List</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block title %}Uniform List{% endblock %}
+
+{% block content %}
 <a href="{% url 'uniform:add' %}">Add Uniform</a>
 <table>
     <thead>
@@ -28,5 +26,4 @@
     {% endfor %}
     </tbody>
 </table>
-</body>
-</html>
+{% endblock %}

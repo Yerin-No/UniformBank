@@ -27,4 +27,13 @@
    10. uniform/views UniformDetailView
    11. uniform/urls uniform:detail
    12. templates uniform_detail.html
-   
+   13. uniform/views UniformUpdateView
+   14. uniform/urls uniform:edit 
+   15. templates uniform_update.html
+   16. get_absolute_url() in Bookmark
+   17. uniform/views UniformDeleteView
+   18. uniform/urls uniform:delete
+   19. templates Uniform_delete.html
+4. 기능 완성
+   1. templates/base.html, extends 'base.html', block title, content
+         

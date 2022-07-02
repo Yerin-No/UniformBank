@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Uniform Detail</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+
+{% block title %}Uniform Detail{% endblock %}
+
+{% block content %}
 <h1>{{ uniform.name }}</h1>
 {{ uniform.size }}
-</body>
-</html>
+{% endblock %}
