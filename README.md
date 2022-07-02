@@ -7,3 +7,11 @@
     1. python -m pip install django~=3.2
     2. django-admin startproject UniformBank .
     3. python manage.py runserver
+2. startapp uniform
+   1. python manage.py startapp uniform
+   2.add 'uniform', to INSTALLED_APPS in settings.py
+3. uniform/models UniformBank
+   1. python manage.py makemigrations uniform
+      1. models -> DB로 옮기기 위한 py
+   2. python manage.py migrate
+      1. DB 테이블 만들기
