@@ -18,4 +18,7 @@
    3. uniform/admin Uniform
       1. python manage.py createsuperuser
       2. uniform/models Uniform \_\_str\_\_()
+   4. uniform/views UniformListView
+   5. urls, uniform/urls uniform:list
+   6. templates uniform_list.html
    
