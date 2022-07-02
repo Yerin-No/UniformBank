@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from uniform.views import UniformListView
+
 urlpatterns = [
+    path('', UniformListView.as_view(), name='home'),
     path('uniform/', include('uniform.urls')),
     path('admin/', admin.site.urls),
 ]
