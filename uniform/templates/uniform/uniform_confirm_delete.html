@@ -6,7 +6,7 @@
 <form action="" method="post">
     {% csrf_token %}
     <div class="alert alert-danger">
-        교복 {{ uniform }} 삭제할건가요?
+        {{ uniform }} 삭제할건가요?
     </div>
     <input type="submit" value="진짜 삭제" class="btn btn-danger">
     <input type="button" value="지우지마" onclick="history.back();" class="btn btn-light">
