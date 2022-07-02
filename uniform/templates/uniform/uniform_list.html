@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uniform List</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for uniform in uniform_list %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ uniform.name }}</td>
+            <td>{{ uniform.size }}</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
